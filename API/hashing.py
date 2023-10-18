@@ -1,3 +1,4 @@
+#Autores: Francisco Jervis, Jacobo Hirsch
 import bcrypt
 
 def hash_password(password):
