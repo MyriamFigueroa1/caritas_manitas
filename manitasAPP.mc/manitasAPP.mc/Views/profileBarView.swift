@@ -13,8 +13,28 @@ struct profileBarView: View {
         ZStack(){
             Image("bar")
                 .cornerRadius(24)
-            Text("Hola,")
-                .fontWeight(.regular)
+            
+            HStack{
+                VStack(alignment: .leading){
+                    HStack{Spacer()}
+                    Text("Hola,")
+                        .font(.system(size: 20))
+                        .fontWeight(.regular)
+                        .foregroundColor(Color("manitasNegro"))
+                    Text("Maruca Cantu") //remplazar con nombre de variable
+                        .font(.system(size: 30))
+                        .fontWeight(.heavy)
+                        .foregroundColor(Color("manitasNegro"))
+                    HStack{Spacer()}
+                }
+                .padding(.leading, 40)
+                Image("Avatar")
+                    .padding(.trailing, 30)
+                
+                
+            }
+            //.padding(.vertical, 10)
+            //.padding(.leading, -100)
             
         }
     }
