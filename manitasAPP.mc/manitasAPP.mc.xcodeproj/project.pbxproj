@@ -39,8 +39,6 @@
 		FB1491382AE04F9900C29C1E = {
 			isa = PBXGroup;
 			children = (
-				FB1491522AE04FF000C29C1E /* LandingView.swift */,
-				FB1491542AE04FFF00C29C1E /* DetalleOrdenView.swift */,
 				FB1491432AE04F9900C29C1E /* manitasAPP.mc */,
 				FB1491422AE04F9900C29C1E /* Products */,
 			);
@@ -57,8 +55,8 @@
 		FB1491432AE04F9900C29C1E /* manitasAPP.mc */ = {
 			isa = PBXGroup;
 			children = (
+				FB1491562AE0533100C29C1E /* Views */,
 				FB1491442AE04F9900C29C1E /* manitasAPP_mcApp.swift */,
-				FB1491462AE04F9900C29C1E /* ContentView.swift */,
 				FB1491482AE04F9A00C29C1E /* Assets.xcassets */,
 				FB14914A2AE04F9A00C29C1E /* Preview Content */,
 			);
@@ -71,6 +69,16 @@
 				FB14914B2AE04F9A00C29C1E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FB1491562AE0533100C29C1E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FB1491542AE04FFF00C29C1E /* DetalleOrdenView.swift */,
+				FB1491522AE04FF000C29C1E /* LandingView.swift */,
+				FB1491462AE04F9900C29C1E /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
