@@ -14,6 +14,7 @@
 		FB1491532AE04FF000C29C1E /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1491522AE04FF000C29C1E /* LandingView.swift */; };
 		FB1491552AE04FFF00C29C1E /* DetalleOrdenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1491542AE04FFF00C29C1E /* DetalleOrdenView.swift */; };
 		FB14915A2AE0570B00C29C1E /* profileBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1491592AE0570B00C29C1E /* profileBarView.swift */; };
+		FBC888522AE06E29006EB1E6 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC888512AE06E29006EB1E6 /* LogInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		FB1491522AE04FF000C29C1E /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		FB1491542AE04FFF00C29C1E /* DetalleOrdenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleOrdenView.swift; sourceTree = "<group>"; };
 		FB1491592AE0570B00C29C1E /* profileBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileBarView.swift; sourceTree = "<group>"; };
+		FBC888512AE06E29006EB1E6 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			children = (
 				FB1491542AE04FFF00C29C1E /* DetalleOrdenView.swift */,
 				FB1491522AE04FF000C29C1E /* LandingView.swift */,
+				FBC888512AE06E29006EB1E6 /* LogInView.swift */,
 				FB1491592AE0570B00C29C1E /* profileBarView.swift */,
 				FB1491462AE04F9900C29C1E /* ContentView.swift */,
 			);
@@ -154,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBC888522AE06E29006EB1E6 /* LogInView.swift in Sources */,
 				FB1491532AE04FF000C29C1E /* LandingView.swift in Sources */,
 				FB1491472AE04F9900C29C1E /* ContentView.swift in Sources */,
 				FB14915A2AE0570B00C29C1E /* profileBarView.swift in Sources */,
