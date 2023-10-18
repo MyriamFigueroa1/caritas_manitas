@@ -13,6 +13,7 @@
 		FB14914C2AE04F9A00C29C1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB14914B2AE04F9A00C29C1E /* Preview Assets.xcassets */; };
 		FB1491532AE04FF000C29C1E /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1491522AE04FF000C29C1E /* LandingView.swift */; };
 		FB1491552AE04FFF00C29C1E /* DetalleOrdenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1491542AE04FFF00C29C1E /* DetalleOrdenView.swift */; };
+		FB14915A2AE0570B00C29C1E /* profileBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1491592AE0570B00C29C1E /* profileBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		FB14914B2AE04F9A00C29C1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FB1491522AE04FF000C29C1E /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		FB1491542AE04FFF00C29C1E /* DetalleOrdenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleOrdenView.swift; sourceTree = "<group>"; };
+		FB1491592AE0570B00C29C1E /* profileBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			children = (
 				FB1491542AE04FFF00C29C1E /* DetalleOrdenView.swift */,
 				FB1491522AE04FF000C29C1E /* LandingView.swift */,
+				FB1491592AE0570B00C29C1E /* profileBarView.swift */,
 				FB1491462AE04F9900C29C1E /* ContentView.swift */,
 			);
 			path = Views;
@@ -153,6 +156,7 @@
 			files = (
 				FB1491532AE04FF000C29C1E /* LandingView.swift in Sources */,
 				FB1491472AE04F9900C29C1E /* ContentView.swift in Sources */,
+				FB14915A2AE0570B00C29C1E /* profileBarView.swift in Sources */,
 				FB1491452AE04F9900C29C1E /* manitasAPP_mcApp.swift in Sources */,
 				FB1491552AE04FFF00C29C1E /* DetalleOrdenView.swift in Sources */,
 			);
